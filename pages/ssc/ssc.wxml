@@ -1,0 +1,58 @@
+<view class='navigator'  wx:for="{{ssc}}" wx:key="{{_id}}">
+  <view class='border'>
+    <view class="shop__list">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class='title'>重庆时时彩</view>
+    </view>
+    <view class="first_item">
+      <view class='expect'>{{item.expect}} 期  {{item.opendate}}</view>
+      <!-- <view class='opentime'></view> -->
+    </view>
+    <view class="opencode">
+        <view class='circle_red'><view class='font_s'>{{item.opencode[0]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{item.opencode[1]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{item.opencode[2]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{item.opencode[3]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{item.opencode[4]}}</view></view>
+    </view>
+    </view>
+    </view>
+</view>
+<view class='footer'>数据来自中国福彩官方www.cwl.gov.cn</view>
+
+<!-- <view class="table">
+  <view class="tr bg-w">
+    <view class="th">开奖期号</view>
+    <view class="th">开奖号码</view>
+    <view class="th">开奖时间</view>
+  </view>
+  
+  <block wx:for="{{list}}" wx:key="{{_id}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.expect}}</view>
+      <view class='td'>
+        <view class="opencode">
+          <view class='circle_red'><view class='font_s'>{{item.opencode[0]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[1]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[2]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[3]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[4]}}</view></view>
+      </view>
+      </view>
+      <view class="td">{{item.opentime}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.expect}}</view>
+      <view class='td'>
+        <view class="opencode">
+          <view class='circle_red'><view class='font_s'>{{item.opencode[0]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[1]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[2]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[3]}}</view></view>
+          <view class='circle_red'><view class='font_s'>{{item.opencode[4]}}</view></view>
+      </view>
+      </view>
+      <view class="td">{{item.opentime}}</view>
+    </view>
+  </block>
+</view> -->

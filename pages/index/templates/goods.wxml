@@ -1,0 +1,13 @@
+<template name="goods">
+  <navigator url="/pages/shop/show?id={{seller_id}}" class="weui-media-box weui-media-box_appmsg shop__item" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{pic_url}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">双色球</view>
+      <view class="weui-media-box__desc goods__desc">
+        <view>最近开奖</view>
+      </view>
+    </view>
+  </navigator>
+</template>

@@ -1,0 +1,124 @@
+<import src="/templates/load-more.wxml" />
+<import src="templates/shop.wxml" />
+
+<view class="category">
+  
+  <view class="category__item" wx:for="{{category}}" wx:key="category_id"> 
+    {{item.title}}
+  </view>
+</view>
+<view>
+<navigator url="/pages/ssq/ssq" class='navigator'>
+  <view class='border'>
+    <view class="shop__list">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class='title'>双色球 <image class='image' src="{{src}}"></image></view>
+    </view>
+    <view class="first_item">
+      <view class='expect'>第 {{ssq.expect}} 期</view>
+      <view class='opentime'>{{ssq.opentime}}</view>
+    </view>
+    <view class="opencode">
+        <view class='circle_red'><view class='font_d'>{{ssq.opencode[0]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{ssq.opencode[1]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{ssq.opencode[2]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{ssq.opencode[3]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{ssq.opencode[4]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{ssq.opencode[5]}}</view></view>
+        <view class='circle_blue'><view class='font_d'>{{ssq.opencode[6]}}</view></view>
+    </view>
+    </view>
+    </view>
+</navigator>
+
+<navigator url='/pages/ssc/ssc' class='navigator'>
+    <view class='border'>
+    <view class="shop__list">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class='title'>重庆时时彩<image class='image' src="{{src}}"></image></view>
+    </view>
+    <view class="first_item">
+      <view class='expect'>第 {{ssc.expect}} 期</view>
+      <view class='opentime'>{{ssc.opentime}}</view>
+    </view>
+    <view class="opencode">
+        <view class='circle_red'><view class='font_s'>{{ssc.opencode[0]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{ssc.opencode[1]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{ssc.opencode[2]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{ssc.opencode[3]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{ssc.opencode[4]}}</view></view>
+    
+    </view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url='/pages/ah3/ah3' class='navigator'>
+    <view class='border'>
+    <view class="shop__list">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class='title'>安徽快3<image class='image' src="{{src}}"></image></view>
+    </view>
+    <view class="first_item">
+      <view class='expect'>第 {{ah3.expect}} 期</view>
+      <view class='opentime'>{{ah3.opentime}}</view>
+    </view>
+    <view class="opencode">
+        <view class='circle_red'><view class='font_s'>{{ah3.opencode[0]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{ah3.opencode[1]}}</view></view>
+        <view class='circle_red'><view class='font_s'>{{ah3.opencode[2]}}</view></view>
+    </view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url='/pages/js11/js11' class='navigator'>
+    <view class='border'>
+    <view class="shop__list">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class='title'>江苏11选5<image class='image' src="{{src}}"></image></view>
+    </view>
+    <view class="first_item">
+      <view class='expect'>第 {{js11.expect}} 期</view>
+      <view class='opentime'>{{js11.opentime}}</view>
+    </view>
+    <view class="opencode">
+        <view class='circle_red'><view class='font_d'>{{js11.opencode[0]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{js11.opencode[1]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{js11.opencode[2]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{js11.opencode[3]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{js11.opencode[4]}}</view></view>
+    </view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url='/pages/bjsc/bjsc' class='navigator'>
+    <view class='border'>
+    <view class="shop__list">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class='title'>北京赛车10PK<image class='image' src="{{src}}"></image></view>
+    </view>
+    <view class="first_item">
+      <view class='expect'>第 {{bjsc.expect}} 期</view>
+      <view class='opentime'>{{bjsc.opentime}}</view>
+    </view>
+    <view class="opencode">
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[0]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[1]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[2]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[3]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[4]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[5]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[6]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[7]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[8]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{bjsc.opencode[9]}}</view></view>
+    </view>
+    </view>
+  </view>
+</navigator>
+
+
+<view class='footer'>数据来自中国福彩官方www.cwl.gov.cn</view>
+</view>

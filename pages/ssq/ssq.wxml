@@ -1,0 +1,24 @@
+
+<view class='navigator'  wx:for="{{list}}" wx:key="{{_id}}">
+  <view class='border'>
+    <view class="shop__list">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class='title'>双色球</view>
+    </view>
+    <view class="first_item">
+      <view class='expect'>{{item.expect}} 期  {{item.opentime}}</view>
+      <!-- <view class='opentime'>{{item.opentime}}</view> -->
+    </view>
+    <view class="opencode">
+        <view class='circle_red'><view class='font_d'>{{item.opencode[0]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{item.opencode[1]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{item.opencode[2]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{item.opencode[3]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{item.opencode[4]}}</view></view>
+        <view class='circle_red'><view class='font_d'>{{item.opencode[5]}}</view></view>
+        <view class='circle_blue'><view class='font_d'>{{item.opencode[6]}}</view></view>
+    </view>
+    </view>
+    </view>
+</view>
+<view class='footer'>数据来自中国福彩官方www.cwl.gov.cn</view>

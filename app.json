@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ssc/ssc",
+    "pages/js11/js11",
+    "pages/bjsc/bjsc",
+    "pages/ah3/ah3",
+    "pages/ssq/ssq",
+    "pages/order/quasi",
+    "pages/order/content",
+    "pages/mine/coupon",
+    "pages/shop/show",
+    "pages/mine/mine",
+    "pages/order/review",
+    "pages/index/search",
+    "pages/index/category",
+    "pages/address/select",
+    "pages/address/list",
+    "pages/index/address",
+    "pages/address/add",
+    "pages/login/login"
+    
+    
+    
+    
+  ],
+  "window": {
+    "backgroundColor": "#ff5801",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5801",
+    "navigationBarTitleText": "万能彩票大师",
+    "navigationBarTextStyle": "light"
+  }
+}

@@ -1,0 +1,158 @@
+.page_row{
+      display: flex;
+      flex-direction: row
+    }
+.searchcion {
+      margin: 10rpx 10rpx 10rpx 10rpx;
+      position: absolute;
+      left:25rpx;
+      z-index: 2;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+    }
+
+.title{
+  color: red
+}
+
+.opencode{
+   clear:both;
+   /* margin-left: -50rpx; */
+   /* margin-top: -30px; */
+   position: absolute;
+   /* color: blue; */
+
+}
+
+.circle_red{
+  position: relative;
+  border: 4rpx solid red;
+  width: 35rpx;
+  height: 35rpx;
+  border-radius: 35rpx;
+  float: left;
+  margin-left: 10rpx;
+  /* background-color: red; */
+  color: black
+
+}
+.font_d{
+  font-size: 22rpx;
+  margin-left: 5rpx;
+}
+
+.font_s{
+  margin-left: 8rpx;
+  margin-top: -5rpx;
+}
+
+.circle_blue{
+  position: relative;
+  border: 4rpx solid blue;
+  width: 35rpx;
+  height: 35rpx;
+  border-radius: 35rpx;
+  float: left;
+  margin-left: 10rpx;
+  /* background-color: blue; */
+  color: black
+  
+  
+
+}
+
+/* .topbar {
+  display: flex;
+  padding: 10px;
+  background-color: #ff5801;
+} */
+
+
+.category {
+  padding: 0 10px 10px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.category__item {
+  float: left;
+  margin-top: 5px;
+  width: 25%;
+}
+
+.category__icon {
+  height: 36px;
+  width: 36px;
+}
+
+.title {
+  position: relative;
+  padding-left: 10pt;
+  color:black;
+  /* font-weight: bold; */
+  font-size: 30rpx;
+  text-overflow: ellipsis;
+  border-radius: 3px/30%;
+  height: 45px；
+  
+}
+
+.expect {
+  margin-right: 10rpx;
+  margin-top: -40rpx;
+  color: gray;
+  font-size: 20rpx;
+  float: right
+}
+.opentime{
+  margin-left: 20px;
+  margin-top: 5px;
+  color:gray;
+  font-size: 30rpx;
+  float: left;
+  height: 25px
+  
+}
+
+.border{
+  height: 45px;
+}
+
+.navigator{
+  margin-bottom: 10px;
+  background: rgba(125, 125, 125, 0.1);
+  height: 45pt;
+}
+
+/* .first_item{
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+} */
+
+
+.abposition{
+  position: absolute;
+}
+
+
+.footer{
+  text-align: center;
+  font-size: 10px;
+  color: gray;
+  height: 30px;
+
+}
+.opencode{
+   clear:both;
+   margin-left: 50rpx;
+   margin-top: 18rpx;
+   position: absolute;
+   /* color: blue; */
+
+}
+
+
+
